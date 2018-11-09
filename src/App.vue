@@ -5,18 +5,16 @@
 </template>
 
 <script>
+import {cordovaInitialize} from "@/common/js/cordova"
 export default {
   name: 'App',
   created(){
-    
+    this._initEnvironment();
   },
   methods:{
     _initEnvironment(){
-      this._initCordova();
+      cordovaInitialize(this);
     },
-    _initCordova(){
-      let _this=this;
-    }
   }
 }
 </script>

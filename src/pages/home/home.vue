@@ -30,7 +30,7 @@ export default {
     }
   },
   created(){
-    console.log(this.Utils.Session.get('user').name);
+    console.log(this.Utils.Session.get('user'));
   },
   methods:{
     goBack(){

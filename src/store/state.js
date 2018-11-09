@@ -1,4 +1,5 @@
 const state = {
-  isLoading: false
+  isLoading: false,
+  appState: "ready"
 };
 export default state;
