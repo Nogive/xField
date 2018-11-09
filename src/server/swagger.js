@@ -5,7 +5,7 @@
 
 const XFieldApi = require("x_field_api");
 /*---------------------API--------------------------------------------- */
-//ddApi
+//accountApi
 export var accountApi = new XFieldApi.AccountApi();
 
 //dingApi里面的参数

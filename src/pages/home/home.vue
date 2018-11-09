@@ -29,9 +29,12 @@ export default {
       active:1
     }
   },
+  created(){
+    console.log(this.Utils.Session.get('user').name);
+  },
   methods:{
     goBack(){
-      this.$router.back();
+      this.$router.push('/login');
     }
   }
 }

@@ -32,6 +32,20 @@ const routes = [
     ]
   },
   {
+    path: "/login",
+    component: () => import("@/pages/login/login.vue"),
+    meta: {
+      title: "登录"
+    }
+  },
+  {
+    path: "/register",
+    component: () => import("@/pages/login/register.vue"),
+    meta: {
+      title: "注册"
+    }
+  },
+  {
     path: "/kaoqin",
     component: () => import("@/pages/kaoqin/kaoqin.vue"),
     children: [
