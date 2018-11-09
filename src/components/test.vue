@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import { uploadImageFromCamera} from "@/common/js/ding";
 import {callApi} from "@/server/axios";
 import {account} from "@/server/api";
 
@@ -21,30 +20,13 @@ export default {
   },
   methods:{
     takePhoto(){
-      let watermark={
-        time: "08:35",
-        dateWeather: "2016.05.06 周六·晴转多云 16℃",
-        username: "王晓",
-        address: "西湖·杭州"
-      };
-      uploadImageFromCamera(watermark).then(res=>{
-        console.log(res);
-      }).catch(err=>{
-        console.log(err);
-      })
+      
     },
     getGPS(){
       console.log('获取GPS');
     },
     testAxios(){
-      callApi({
-        that:this,
-        url:account.getCaptchaImage,
-        type:"GET",
-        success:function(data){
-          console.log(data);
-        }
-      })
+      
     },
     show(){
       this.Utils.loading(this,true);
