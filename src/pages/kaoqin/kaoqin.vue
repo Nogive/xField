@@ -25,7 +25,7 @@ export default {
   name:'kaoqin',
   data(){
     return {
-      active:1
+      active:0
     }
   }
 }

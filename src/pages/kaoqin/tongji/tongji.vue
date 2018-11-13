@@ -67,6 +67,8 @@
     bottom 50px
     left 0
     .text
+      border-top 1px solid rgba(196,196,196,1)
+      border-bottom 1px solid rgba(196,196,196,1)
       background-color #fafafa
       text-align center
       color #38f

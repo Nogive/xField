@@ -12,7 +12,7 @@
     <div class="rule-wrapper">
       <div class="content-wrapper">
         <div class="content">
-          <router-link to="/comingsoon">
+          <router-link to="/rule_detail">
             <h3 class="title">每日2次打卡</h3>
             <p class="date">日期 : 周一到周五</p>
             <p class="time">时间 : 09:00-12:00</p>
@@ -22,7 +22,7 @@
       </div>
       <div class="content-wrapper">
         <div class="content">
-          <router-link to="/comingsoon">
+          <router-link to="/rule_detail">
             <h3 class="title">每日4次考勤</h3>
             <p class="date">日期 : 周一到周五</p>
             <p class="time">时间 : 09:00-12:00 13:00-18:00</p>

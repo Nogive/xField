@@ -77,9 +77,66 @@ const routes = [
   },
   {
     path: "/daka_detail",
+    name: "daka_detail",
     component: () => import("@/pages/kaoqin/daka/daka_detail.vue"),
     meta: {
       title: "打卡详情"
+    }
+  },
+  {
+    path: "/rule_detail",
+    name: "rule_detail",
+    component: () => import("@/pages/kaoqin/rule/rule_detail.vue"),
+    meta: {
+      title: "打卡规则"
+    }
+  },
+  {
+    path: "/rule_name",
+    name: "rule_name",
+    component: () => import("@/pages/kaoqin/rule/rule_name.vue"),
+    meta: {
+      title: "规则名称"
+    }
+  },
+  {
+    path: "/rule_staff",
+    name: "rule_staff",
+    component: () => import("@/pages/kaoqin/rule/rule_staff.vue"),
+    meta: {
+      title: "打卡人员"
+    }
+  },
+  {
+    path: "/rule_date",
+    name: "rule_date",
+    component: () => import("@/pages/kaoqin/rule/rule_date.vue"),
+    meta: {
+      title: "打卡日期"
+    }
+  },
+  {
+    path: "/rule_shift",
+    name: "rule_shift",
+    component: () => import("@/pages/kaoqin/rule/rule_shift.vue"),
+    meta: {
+      title: "打卡班次"
+    }
+  },
+  {
+    path: "/rule_position",
+    name: "rule_position",
+    component: () => import("@/pages/kaoqin/rule/rule_position.vue"),
+    meta: {
+      title: "打卡位置"
+    }
+  },
+  {
+    path: "/rule_position_detail",
+    name: "rule_position_detail",
+    component: () => import("@/pages/kaoqin/rule/rule_position_detail.vue"),
+    meta: {
+      title: "打卡地点"
     }
   },
   {
