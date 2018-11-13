@@ -37,7 +37,7 @@
             placeholder="此处填写留言"
           />
           <div class="photo-wrapper">
-            <x-photo></x-photo>
+            <x-photo @getPhotos="getPhotos"></x-photo>
           </div>
         </div>
       </div>
@@ -109,6 +109,9 @@ export default {
   methods:{
     onLocation(){
       this.center=[121.406051,31.179695];
+    },
+    getPhotos(data){
+      console.log('detail:',data);
     }
   }
 }
